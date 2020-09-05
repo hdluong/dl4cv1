@@ -14,4 +14,4 @@ class ImageToArrayPreprocessor:
 		"""
 		convert image to keras's format
 		"""
-		return img_to_array(image, dataFormat=self.dataFormat)
+		return img_to_array(image, data_format=self.dataFormat)
