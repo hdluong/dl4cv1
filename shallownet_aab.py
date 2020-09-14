@@ -49,7 +49,7 @@ print("[INFO] evaluating network...")
 predictions = model.predict(testX, batch_size = 32)
 print(classification_report(testY.argmax(axis=1),
 predictions.argmax(axis=1),
-target_names=["ak47", "american-flag", "baseball-bat"]))
+	target_names=["ak47", "american-flag", "baseball-bat"]))
 
 # plot the training loss and accuracy
 plt.style.use("ggplot")
